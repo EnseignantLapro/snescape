@@ -16,9 +16,11 @@
         if($goodSite){
             error_reporting(E_ALL);
             /* Lit le port du service WWW. */
-            $service_port = '12345';
+            //$service_port = '12345';
+            $service_port = $_POST['port'];
             /* Lit l'adresse IP du serveur de destination */
-            $address = '192.168.64.192';
+           // $address = '192.168.64.192';
+           $address = $_POST['ip'];
             /* Crée un socket TCP/IP. */
             $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
             if ($socket === false) {
@@ -58,6 +60,8 @@
         <div class="form">
             <form method="post">
                 <input type="text" name="mdp"class="form-field animation a3" placeholder="Mot de Passe (Culture G) ?">
+                <input type="text" name="ip"class="form-field animation a3" placeholder="192.168.A.B">
+                <input type="text" name="port"class="form-field animation a3" placeholder="N° du Port">
                 <button class="animation a6">OUVERTURE DE LA GACHE</button>
             </form>
         </div>

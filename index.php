@@ -54,6 +54,11 @@
     <div class="container">
     <div class="left">
         <div class="header">
+        <!-- Je ne suis peut etre pas le bon site mais 
+        si je suis le bon voici mon indice : le mot de passe est crypté
+        il faut le coder selon une méthode que vous connaissait bien.
+        Les 2 mots à codé sont les résultats d'autres egnigmes
+        -->
         <h2 class="animation a1">SNescape Game</h2>
         <h4 class="animation a2">Vous êtes sur un site d'ouverture de la gâche Electrique. Mais est-ce le bon site :D</h4>
         </div>

@@ -66,7 +66,7 @@
             <form method="post">
                 <input type="text" name="mdp"class="form-field animation a3" placeholder="Mot de Passe (Culture G) ?">
                 <input type="text" name="ip"class="form-field animation a3" placeholder="192.168.A.B">
-                <input type="text" name="port"class="form-field animation a3" placeholder="N° du Port">
+                <input type="text" name="port"class="form-field animation a3" placeholder="C: N° du Port">
                 <button class="animation a6">OUVERTURE DE LA GACHE</button>
             </form>
         </div>

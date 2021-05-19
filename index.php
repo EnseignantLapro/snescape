@@ -16,10 +16,10 @@
         if($goodSite){
             error_reporting(E_ALL);
             /* Lit le port du service WWW. */
-            //$service_port = '12345';
+            //$service_port = '1234' si tu vois çà tu es malin mais nous plus que toi hahahaha;
             $service_port = $_POST['port'];
             /* Lit l'adresse IP du serveur de destination */
-           // $address = '192.168.64.192';
+           // $address = '192.168.64.90 si tu vois çà tu es malin mais nous plus que toi hahahaha';
            $address = $_POST['ip'];
             /* Crée un socket TCP/IP. */
             $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
